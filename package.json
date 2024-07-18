@@ -1,0 +1,21 @@
+{
+  "name": "dealabs-rennes",
+  "module": "index.ts",
+  "type": "module",
+  "devDependencies": {
+    "bun-types": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "discord.js": "^14.13.0",
+    "dotenv": "^16.4.5",
+    "pino": "^8.16.1",
+    "pino-pretty": "^11.2.1",
+    "valibot": "^0.36.0"
+  },
+  "scripts": {
+    "start": "bun run index.ts | pino-pretty"
+  }
+}
